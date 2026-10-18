@@ -1,4 +1,5 @@
 "use strict";
+// type GetResultMessage = (student: Student) => string;
 const getResultMessage = (student) => {
     if (student.score >= 60) {
         return `${student.name}さんは合格です。`;
