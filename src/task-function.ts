@@ -1,7 +1,7 @@
 type Student = { name: string, score: number };
-type GetResultMessage = (student: Student) => string;
+// type GetResultMessage = (student: Student) => string;
 
-const getResultMessage: GetResultMessage = (student) => {
+const getResultMessage = (student: Student): string => {
   if (student.score >= 60) {
     return `${student.name}さんは合格です。`;
   } else {
