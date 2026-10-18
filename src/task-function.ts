@@ -1,5 +1,4 @@
 type Student = { name: string, score: number };
-// type GetResultMessage = (student: Student) => string;
 
 const getResultMessage = (student: Student): string => {
   if (student.score >= 60) {
